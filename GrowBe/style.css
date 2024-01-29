@@ -1,51 +1,54 @@
     body {
+        width: 99%;
+        height: 100%;
         font-family: Inter;
         background: white;
-        justify-content: space-between;
     }
     
     .header {
-        height: 10%;
+        width: 100%;
+        height: 15%;
         justify-content: flex-start;
-        align-items: center;
         gap: 460px;
+        justify-content: space-between;
         display: inline-flex;
     }
     
     .logo {
         padding-right: 0.88px;
-        justify-content: center;
-        align-items: center;
         gap: 14.79px;
     }
     
     .menu {
-        margin-left: auto;
-        margin-right: 0;
+        width: 48%;
         gap: 14px;
-        font-size: 14px;
+        font-size: 16px;
         display: inline-flex;
     }
     
     .link_home {
+        width: 13%;
         color: #F25822;
+        justify-content: center;
         font-weight: 600;
     }
     
     .link_menu {
+        width: 13%;
         color: black;
+        justify-content: center;
         font-weight: 400;
     }
     
     .top_content {
-        height: 40%;
+        height: 50%;
         justify-content: space-between;
         align-items: flex-start;
         display: inline-flex
     }
     
     .top_info {
-        width: 44%;
+        width: 40%;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
@@ -112,12 +115,17 @@
         word-wrap: break-word;
     }
     
-    .botton {
-        height: 20%;
+    .bottom {
+        width: 100%;
+        height: 17%;
         padding-top: 100px;
         padding-bottom: 100px;
         justify-content: center;
         align-items: center;
         gap: 48px;
         display: inline-flex;
+    }
+    
+    .images_logo {
+        width: 15%;
     }
