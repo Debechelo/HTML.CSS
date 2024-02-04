@@ -1,18 +1,17 @@
-.body_class {
-    height: 100%;
+body {
     font-family: Inter;
     background: white;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    margin-left: 17%;
+    margin-right: 17%;
 }
 
 .header {
-    width: 100%;
-    gap: 460px;
-    justify-content: space-around;
     display: flex;
-    margin-bottom: 4%;
+    justify-content: space-between;
+    margin-bottom: 6%;
+    margin-top: 2%;
 }
 
 .logo {
@@ -21,41 +20,34 @@
 }
 
 .menu {
-    width: 46%;
-    gap: 14px;
+    width: 50%;
     font-size: 14px;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
 }
 
 .link_home {
-    width: 13%;
     color: #F25822;
-    justify-content: center;
     font-weight: 600;
 }
 
 .link_menu {
-    width: 13%;
     color: black;
-    justify-content: center;
     font-weight: 400;
 }
 
 .top_content {
-    margin-left: 3%;
-    margin-right: 7%;
+    display: flex;
     justify-content: space-between;
-    display: flex
 }
 
 .top_info {
-    width: 34%;
+    width: 70%;
+    display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 20px;
-    display: flex;
+    gap: 24px;
 }
 
 .info_1_top {
@@ -67,23 +59,24 @@
 }
 
 .info_2_top {
+    width: 86%;
     color: #888888;
     font-size: 20px;
     font-family: Inter;
     font-weight: 400;
     line-height: 28px;
-    word-wrap: break-word
+    word-wrap: break-word;
 }
 
 .top_button {
     width: 100%;
+    display: flex;
     justify-content: flex-start;
-    align-items: center;
-    gap: 48px;
+    gap: 20px;
 }
 
 .button_start {
-    width: 29%;
+    width: 31%;
     border: none;
     padding-left: 10px;
     padding-right: 10px;
@@ -91,11 +84,9 @@
     padding-bottom: 16px;
     background: #F25822;
     border-radius: 56px;
-    justify-content: center;
-    align-items: center;
     gap: 10px;
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     word-wrap: break-word;
 }
@@ -108,8 +99,6 @@
     padding-top: 16px;
     padding-bottom: 16px;
     background: white;
-    justify-content: center;
-    align-items: center;
     gap: 10px;
     color: #AAAAAA;
     font-size: 16px;
@@ -117,13 +106,108 @@
     word-wrap: break-word;
 }
 
+.big_image {
+    width: 50%;
+}
+
 .bottom {
-    width: 100%;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    justify-content: space-around;
-    align-items: flex-end;
-    gap: 48px;
     display: flex;
-    margin-top: 4%;
+    justify-content: space-between;
+    margin-top: 10%;
+    margin-bottom: 14%;
+}
+
+.card {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card_dop {
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, .1);
+}
+
+.card_info_1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.card_info_2 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #666666;
+}
+
+.read_more_button {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    border: none;
+    background: white;
+    text-align: left;
+    gap: 10px;
+    color: black;
+    margin-bottom: 2%
+}
+
+.info_center {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.info_center_1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+}
+
+.info_center_2 {
+    width: 65%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #888888;
+    text-align: center;
+}
+
+.card_learn_more {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 5px -5px 5px 5px rgba(0, 0, 0, .1);
+}
+
+.image1 {
+    clip-path: polygon(10% 0, 90% 0, 90% 100%, 10% 100%);
+}
+
+.info_card_learn_more_1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+}
+
+.info_card_learn_more_2 {
+    width: 70%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #666666;
+}
+
+.button_dop {
+    width: 65%;
 }
