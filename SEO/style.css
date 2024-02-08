@@ -81,19 +81,14 @@ body {
 }
 
 .foto_board_2 {
+    text-align: center;
     margin-top: 5%;
-}
-
-.text {
-    display: flex;
-    flex-direction: column;
 }
 
 .white_text {
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
-    text-align: center;
     color: #ffffff;
 }
 
@@ -101,6 +96,70 @@ body {
     font-size: 24px;
     font-weight: 700;
     line-height: 29px;
-    text-align: center;
     color: #f16d7f;
+}
+
+.fetured_items {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.text1 {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #222222;
+}
+
+.text2 {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    color: #9F9F9F;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12%;
+    margin-right: 13%;
+}
+
+.line_card {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+
+.card {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: #F8F8F8;
+}
+
+.card_text1 {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+}
+
+.card_text2 {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    text-align: left;
+    color: #5D5D5D;
+}
+
+.card_text3 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    color: #F16D7F;
 }
